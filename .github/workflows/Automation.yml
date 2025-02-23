@@ -40,5 +40,5 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/Diffie-Hellman-App:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/diffie-hellman-app:latest
 
