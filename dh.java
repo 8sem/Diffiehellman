@@ -17,8 +17,8 @@ public class dh {
 
         BigInteger A = g.modPow(a, p);
         BigInteger B = g.modPow(b, p);
-        System.out.println("Public Key of Alice is :"+A);
-        System.out.println("Public Key of Bob is :"+B);
+        System.out.println("Public Key of ABC is :"+A);
+        System.out.println("Public Key of XYZ is :"+B);
 
         BigInteger secretA = B.modPow(a, p);
         BigInteger secretB = A.modPow(b, p);
